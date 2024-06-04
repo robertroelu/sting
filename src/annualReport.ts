@@ -243,7 +243,9 @@ export const annualReports = async function () {
             font: {
               size: 24,
             },
-            align: 'top',
+            align: 'bottom',
+            anchor: 'end',
+            offset: -40,
             formatter(value, context) {
               const totalRevenue = +context.chart.data.datasets[0].data[data.length - 1];
               const intRevenue = +context.chart.data.datasets[1].data[data.length - 1];
