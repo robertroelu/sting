@@ -365,13 +365,14 @@ export const annualReports = async function () {
       data: {
         // labels: data.map((row) => row.year).sort((a, b) => a - b),
         labels: ['Females', 'Males'],
+
         datasets: [
           {
             data: [
               data.map((row) => row.employeesFemale).pop(),
               data.map((row) => row.employeesMale).pop(),
             ],
-            backgroundColor: '#ec1877',
+            backgroundColor: ['#ec1877', '#000000'],
           },
         ],
       },
