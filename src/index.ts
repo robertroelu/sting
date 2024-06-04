@@ -8,7 +8,6 @@ import { senja } from './senja';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  alert('ide');
   annualReports();
   jobylon();
   library();
