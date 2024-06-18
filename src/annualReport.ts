@@ -100,7 +100,7 @@ export const annualReports = async function () {
           {
             label: 'Living dead / Changed ideas',
             data: data.map((row) => row.livingDead),
-            backgroundColor: 'grey',
+            backgroundColor: '#f0ede5',
           },
           {
             label: 'Discontinued',
